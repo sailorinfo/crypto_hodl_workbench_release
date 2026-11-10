@@ -1,0 +1,26 @@
+# Release repository: documentation and version metadata only.
+node_modules/
+Workbench/
+src/
+server/
+browser-extension/
+private_data/
+.env*
+*.js
+*.mjs
+*.cjs
+*.ts
+*.tsx
+*.jsx
+*.py
+*.ps1
+*.nsh
+*.map
+package*.json
+*.zip
+*.tar.gz
+*.exe
+*.sqlite*
+*.db*
+*.log
+.DS_Store
