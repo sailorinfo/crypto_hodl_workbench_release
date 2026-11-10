@@ -1,2 +1,3 @@
 5d9d6d5ff000b8d787ccd9cbae7566e2c561a2f46f98b93341292d34de4233f4  crypto_hodl_workbench-0.1.2-win-x64-setup.exe
 674b770d5a8d38db7dd1fdfbdb2f879c212dedda7d49811e973ee7d0672897c8  crypto_hodl_workbench-0.1.2-win-x64.exe
+a542ce4cf535a2090cb7afd61c3153fbe750ecad99aca12c71c9481b1d9286d7  hodl-workbench-extension-0.1.2.zip

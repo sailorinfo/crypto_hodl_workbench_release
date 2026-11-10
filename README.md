@@ -1,21 +1,22 @@
 # 囤币工作台 · 版本发布
 
-本仓库以 **v0.1.2** 为当前交付起点，仅保留最新版本的程序包、校验文件和说明。旧版本、旧草稿和旧标签已清理。
+当前唯一交付基线为 **v0.1.2 测试版**。[进入下载页](https://github.com/sailorinfo/crypto_hodl_workbench_release/releases/tag/v0.1.2)。
 
-## 当前版本
+## 下载文件
 
-[v0.1.2 测试版下载](https://github.com/sailorinfo/crypto_hodl_workbench_release/releases/tag/v0.1.2)
+- crypto_hodl_workbench-0.1.2-win-x64-setup.exe：Windows x64 安装版。
+- crypto_hodl_workbench-0.1.2-win-x64.exe：免安装版，不注册扩展连接组件。
+- hodl-workbench-extension-0.1.2.zip：独立浏览器插件测试安装包，约 5.1 KB。
+- SHA256SUMS.txt：上述三个分发文件的校验值。
 
-- Windows x64 安装版：crypto_hodl_workbench-0.1.2-win-x64-setup.exe
-- Windows x64 免安装版：crypto_hodl_workbench-0.1.2-win-x64.exe
-- SHA256SUMS.txt：程序包校验值
+## 插件安装
 
-本版仍为测试版，Windows Chrome 的安装注册、唤起、授权和卸载注销仍需实机验收。安装包尚未配置代码签名。
+解压插件 ZIP，打开 Chrome 扩展管理页，开启开发者模式并加载解压目录。ZIP 不是可直接双击安装的 CRX。先安装插件，再按侧栏引导安装桌面版，连接并在桌面解锁和授权。Windows Chrome 原生连接仍需实机验收。
 
-## 分发边界
+## 公开边界与确认要求
 
-允许程序内部运行代码；不托管应用源码目录、源码附件、可直接展开的扩展源码 ZIP、数据库、个人资料或凭据。正式扩展安装渠道另行提供。GitHub 自动生成的 Source code 归档仅对应本发布仓库的说明与版本元数据。
+允许程序内部运行代码及独立插件运行代码。插件包仅含界面、连接转发、公开标识和配置，不含工作台核心源码、数据库、加密实现、用户数据或凭据。禁止工作台源码目录、开发目录及工作台源码归档。GitHub 自动的 Source code 归档仅对应本仓库说明和版本元数据。
 
-后续新版本验证可下载后，切换当前入口并清理旧 Release、草稿、标签及过时说明，不累积历史版本。应用源码仍由独立私有仓库维护。
+当前插件 ZIP 已获用户明确许可。除此之外，向本公开仓库新增任何文件（含新版本附件、草稿附件和 Git 文件）前，必须列明文件名及内容并取得用户明确确认；开发授权或配置发布地址不代表公开授权。
 
-激活、隐私、备份和反馈见 ACTIVATION.md、PRIVACY.md、docs/data-and-backup.md、SUPPORT.md、SECURITY.md。
+仅保留最新交付版本。新版本获准公开并验证下载后，再清理旧发布、草稿和标签。安装包尚未配置代码签名。
