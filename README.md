@@ -1,22 +1,19 @@
 # 囤币工作台 · 版本发布
 
-当前唯一交付基线为 **v0.1.2 测试版**。[进入下载页](https://github.com/sailorinfo/crypto_hodl_workbench_release/releases/tag/v0.1.2)。
+当前唯一交付版本为 **v0.1.4 免安装版**：[进入下载页](https://github.com/sailorinfo/crypto_hodl_workbench_release/releases/tag/v0.1.4)。
 
 ## 下载文件
 
-- crypto_hodl_workbench-0.1.2-win-x64-setup.exe：Windows x64 安装版。
-- crypto_hodl_workbench-0.1.2-win-x64.exe：免安装版，不注册扩展连接组件。
-- hodl-workbench-extension-0.1.2.zip：独立浏览器插件测试安装包，约 5.1 KB。
-- SHA256SUMS.txt：上述三个分发文件的校验值。
+- `hodl-workbench-0.1.4-win-x64.exe`：Windows 10/11 x64 便携程序，双击运行。
+- `hodl-workbench-0.1.4-mac-arm64.zip`：Apple 芯片 Mac 程序，解压后运行 `囤币工作台.app`；不支持 Intel Mac。
+- `SHA256SUMS.txt`：两个程序包的 SHA-256 校验值。
 
-## 插件安装
+个人数据存放在系统用户数据目录，不随程序包移动。换电脑请在工作台中使用全量导出／导入。本版本不提供 Windows 安装程序或浏览器扩展。
 
-解压插件 ZIP，打开 Chrome 扩展管理页，开启开发者模式并加载解压目录。ZIP 不是可直接双击安装的 CRX。先安装插件，再按侧栏引导安装桌面版，连接并在桌面解锁和授权。Windows Chrome 原生连接仍需实机验收。
+Windows 包尚无商业代码签名，系统可能提示未知发布者；结构及隐私检查已完成，仍需 Windows 实机验收。Mac 包采用临时签名，没有 Apple Developer ID 签名或公证；从网络下载后首次打开可能需要在“系统设置 → 隐私与安全性”中手动允许。
 
-## 公开边界与确认要求
+## 公开边界
 
-允许程序内部运行代码及独立插件运行代码。插件包仅含界面、连接转发、公开标识和配置，不含工作台核心源码、数据库、加密实现、用户数据或凭据。禁止工作台源码目录、开发目录及工作台源码归档。GitHub 自动的 Source code 归档仅对应本仓库说明和版本元数据。
+本仓库只发布获得明确批准的程序包、校验文件和说明，不包含工作台核心源码、数据库、用户资料或凭据。程序包内部包含运行所需代码；GitHub 自动生成的 Source code 归档仅对应本仓库的说明文件。
 
-当前插件 ZIP 已获用户明确许可。除此之外，向本公开仓库新增任何文件（含新版本附件、草稿附件和 Git 文件）前，必须列明文件名及内容并取得用户明确确认；开发授权或配置发布地址不代表公开授权。
-
-仅保留最新交付版本。新版本获准公开并验证下载后，再清理旧发布、草稿和标签。安装包尚未配置代码签名。
+仅保留最新交付版本。向本公开仓库新增其他文件或发布附件，仍须事先取得用户明确确认。
